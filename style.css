@@ -1,0 +1,125 @@
+:root {
+   --highlight-primary: rgb(230,230,230);
+}
+
+
+
+.intro1 {
+  height: 40vh;
+  background-image: linear-gradient(red,black);
+}
+
+.title-GAY {
+  font-family: DotGothic16, cursive;
+  font-weight: 700;
+  font-size: 8rem;
+  color: var(--highlight-primary);
+}
+
+.title-GAY2 {
+  font-weight: 10;
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(70,80,80);
+  font-family: DotGothic16, cursive;
+
+  position: relative;
+  top: -1.5rem;
+}
+
+.title-GAY3 {
+    font-family: DotGothic16, cursive;
+  font-size: 2rem;
+  font-size: 1rem;
+  color: white;
+
+  position:relative;
+  top: -1.5rem;
+}
+
+.bod1 {
+    font-family: DotGothic16, cursive;
+  width: 80vh;
+  height: 40vh;
+  background-color: black
+}
+
+.image1{
+  width:10vw;
+  height:5vw;
+}
+
+.image-container {
+  width:20vw;
+  height:20vw;
+  border-radius: 100%;
+box-shadow: 10px 5px 10px red;
+}
+
+.GAY4 {
+    font-size: 1rem;
+  color: red;
+  padding-left: 5%;
+  font-family: DotGothic16, cursive;
+}
+
+.GAY5 {
+    font-family: DotGothic16, cursive;
+    height: 40vh;
+    background-color: rgb(72,0,0);
+    color:rgb(230,230,230);
+}
+
+.GAY6 {
+    font-family: DotGothic16, cursive;
+  height: 80vh;
+  background-color: rgb(72,0,0);
+  color:rgb(230,230,230);
+}
+
+.GAY7 {
+    font-family: DotGothic16, cursive;
+  height: 80vh;
+  background-color: rgb(72,0,0);
+  color:rgb(230,230,230);
+}
+
+.GAY8 {
+    font-family: DotGothic16, cursive;
+  height: 80vh;
+  background-color: rgb(72,0,0);
+  color:rgb(230,230,230);
+}
+
+.GAY9 {
+    font-family: DotGothic16, cursive;
+  height: 80vh;
+  background-color: rgb(72,0,0);
+  color:rgb(230,230,230);
+}
+
+.GAY10{
+    font-family: DotGothic16, cursive;
+  height: 80vh;
+  background-color: rgb(72,0,0);
+  color:rgb(230,230,230);
+}
+
+.chickenn{
+  width:20vw;
+  height:20vw;
+  border-radius: 100%;
+animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+box-shadow: 10px 5px 10px red;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
